@@ -1,0 +1,80 @@
+{
+  "buildings": [],
+  "floors": [],
+  "roomTypes": [],
+  "statuses": [
+    {
+      "id": "status-vacant",
+      "name": "Vacant",
+      "type": "both",
+      "color": "#10b981",
+      "description": "Ready for immediate check-in",
+      "isOccupiedState": false,
+      "isMaintenanceState": false
+    },
+    {
+      "id": "status-occupied",
+      "name": "Occupied",
+      "type": "both",
+      "color": "#3b82f6",
+      "description": "Fully occupied bed or room",
+      "isOccupiedState": true,
+      "isMaintenanceState": false
+    },
+    {
+      "id": "status-partially",
+      "name": "Partially Occupied",
+      "type": "room",
+      "color": "#06b6d4",
+      "description": "Room has available beds remaining",
+      "isOccupiedState": true,
+      "isMaintenanceState": false
+    },
+    {
+      "id": "status-reserved",
+      "name": "Reserved",
+      "type": "both",
+      "color": "#8b5cf6",
+      "description": "Held for upcoming team member arrival",
+      "isOccupiedState": false,
+      "isMaintenanceState": false
+    },
+    {
+      "id": "status-cleaning",
+      "name": "Cleaning in Progress",
+      "type": "room",
+      "color": "#f59e0b",
+      "description": "Turnover cleaning undergoing",
+      "isOccupiedState": false,
+      "isMaintenanceState": false
+    },
+    {
+      "id": "status-maintenance",
+      "name": "Maintenance",
+      "type": "both",
+      "color": "#ef4444",
+      "description": "Out of service due to repairs",
+      "isOccupiedState": false,
+      "isMaintenanceState": true
+    }
+  ],
+  "rooms": [],
+  "beds": [],
+  "logs": [],
+  "users": [
+    {
+      "id": "usr-admin-aasnad",
+      "email": "aasnad@avanihotels.com",
+      "password": "adminpassword",
+      "name": "Asnaad (Admin)",
+      "role": "Admin",
+      "employeeId": "ADM-000",
+      "department": "Housing Operations",
+      "phone": "+960 729 2184",
+      "createdAt": "2026-01-01T08:00:00Z"
+    }
+  ],
+  "maintenanceRequests": [],
+  "foodWasteLogs": [],
+  "transferRecords": []
+}
